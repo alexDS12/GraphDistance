@@ -29,7 +29,6 @@ def main():
     graph = nx.Graph()
     #Populate the nx graph with a dictionary of paths
     graph = nx.DiGraph(graph_dict)
-    place_weights(graph)
     
     start = (input("Point of beginning: ")).upper()
     end = (input("Point of ending: ")).upper()
